@@ -20,7 +20,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     for (i = 0; i++; i < line.length) {
-      msg = msg + `${i + 1}. ${line.[i]}, `
+      msg = msg + `${i + 1}. ${line[i]}, `
     }
     return msg
   }
