@@ -25,7 +25,7 @@ function currentLine(line) {
       } else {
         msg = msg + `${i + 1}. ${line[i]}, `
       }
-      
+
     }
     return msg
   }
